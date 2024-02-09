@@ -510,6 +510,8 @@ var strikeCount=0;
 
    hints1.style.display='block'
    hints1.innerHTML='Enter start to start the game';
+   hints2.style.display='block'
+   hints2.innerHTML="click 'a'-left 'd'-right 'w'-up 'x'-down 'space'-shoot and 's'-autoshoot";
   button1.innerHTML='start'
   button1.style.display='flex'
          button1.addEventListener('click',()=>{
