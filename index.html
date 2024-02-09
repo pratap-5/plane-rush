@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <audio src="music/enmykill.mp3" id="sound1"></audio>
+    <audio src="music/background2.mp3" id="sound2"></audio>
+    <audio src="music/colision.mp3" id="sound3"></audio>
+    <audio src="music/firing.mp3" id="sound4"></audio>
+
+    <div class="showstrike">
+        
+        <div class="show" id="strikeNumber"></div>
+        <div class="show" id="planeHealth"></div>
+        <div class="show" id="currentLevel"></div>
+        <div class="show" id="restStrikeToNext"></div>
+    </div>
+
+    <div class="menu">
+         <div class="menubar" id="menubar">
+            <p class="hints" id="hints1"></p>
+            <p class="hints" id="hints2"></p>
+            <p class="hints" id="hints3"></p>
+            <p class="hints" id="hints4"></p>
+
+            <button class="btn" id="btn1"></button>
+            <button class="btn" id="btn2"></button>
+
+         </div>
+         <canvas>  </canvas>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
